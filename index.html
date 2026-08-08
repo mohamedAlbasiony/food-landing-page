@@ -1,110 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <!-- start google fonts -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Food</title>
+
+    <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
-   <!-- goole fonts -->
-   <!-- style css -->
-   <link rel="stylesheet" href="css/main.css">
-   <link rel="stylesheet" href="css/all.css">
-   <link rel="stylesheet" href="css/normalize.css">
-   <link rel="stylesheet" href="css/all.min.css">
-     <!-- style css -->
-    <title>Sopy</title>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Font Awesome -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    >
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<header>
-    <div class="container">
+    <!-- Start Header -->
 
-        <h1>
-            Food<span>.</span>
-        </h1>
+    <header>
+        <div class="container">
 
-        <nav>
-            <ul>
-                <li>Home</li>
-                <li>Menu</li>
-                <li>About</li>
-                <li>Contact</li>
-            </ul>
-        </nav>
+            <a href="#" class="logo">
+                Food<span>.</span>
+            </a>
 
-        <div class="button">
-            <span>Login</span>
-            <button>Register</button>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="auth">
+                <a href="#">Login</a>
+
+                <a href="#" class="register">
+                    Register
+                </a>
+            </div>
+
         </div>
+    </header>
 
-    </div>
-</header>
+    <!-- End Header -->
 
 
-<section class="landing-page">
+    <!-- Start Landing -->
 
-    <div class="container">
+    <main class="landing-page">
 
-        <!-- Text -->
-        <div class="box">
+        <div class="container">
 
-            <h1>
-                Spice Up to Mood Up
-            </h1>
+            <!-- Text -->
 
-            <h3>
-                Spicy Vegetables Soup
-            </h3>
+            <div class="content">
 
-            <p>
-                Lorem ipsum dolor sit amet, consectetur
-                adipisicing elit. Nisi vitae, aliquam
-                in aperiam? Ex.
-            </p>
+                <h1>
+                    Spice Up to<br>
+                    Mood Up
+                </h1>
 
-            <div class="button">
-                <button class="edit">
-                    Book a Table
-                </button>
+                <h2>
+                    Spicy Vegetables Soup
+                </h2>
 
-                <button>
-                    View Menu
-                </button>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur
+                    adipisicing elit. Nisi vitae, aliquam in
+                    aperiam? Ex.
+                </p>
+
+                <div class="actions">
+
+                    <a href="#" class="primary-btn">
+                        Book a Table
+                    </a>
+
+                    <a href="#" class="secondary-btn">
+                        View Menu
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- Image -->
+
+            <div class="image-box">
+
+                <img
+                    src="image/5df75d64-16ca-4360-b7a6-29a3db742294.jpg"
+                    alt="Spicy Vegetables Soup"
+                >
+
             </div>
 
         </div>
 
 
-        <!-- Image -->
-        <div class="box">
+        <!-- Slider Controls -->
 
-            <img
-                src="image/5df75d64-16ca-4360-b7a6-29a3db742294.jpg"
-                alt="Spicy vegetables soup"
-            >
+        <div class="slider-controls">
+
+            <button class="arrow">
+                <i class="fa-solid fa-arrow-left"></i>
+            </button>
+
+            <span>03</span>
+
+            <button class="arrow next">
+                <i class="fa-solid fa-arrow-right"></i>
+            </button>
 
         </div>
 
-    </div>
+    </main>
 
-
-    <!-- Slider Controls -->
-    <div class="icon">
-
-        <i class="fa-solid fa-arrow-left"></i>
-
-        <span>03</span>
-
-        <i
-            class="fa-solid fa-arrow-right"
-            title="next page">
-        </i>
-
-    </div>
-
-</section>
-```
+    <!-- End Landing -->
 
 </body>
+
 </html>
