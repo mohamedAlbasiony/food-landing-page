@@ -12,6 +12,9 @@ A modern, responsive, and clean landing page for a restaurant website designed w
 - **CSS3** ( Grid)
 - **FontAwesome** (Icons)
 - **JavaScript**
+- 
+## 🚀 Live Demo
+((https://mohamedalbasiony.github.io/SMF-Cinema-World/)
 
 ## 👤 Author
 - **Mohamed Albadiony**
