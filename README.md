@@ -11,6 +11,7 @@ A modern, responsive, and clean landing page for a restaurant website designed w
 - **HTML5**
 - **CSS3** ( Grid)
 - **FontAwesome** (Icons)
+- **JavaScript**
 
 ## 👤 Author
 - **Mohamed Albadiony**
