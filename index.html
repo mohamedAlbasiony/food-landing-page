@@ -1,139 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Food</title>
-
-    <!-- Google Font -->
+    <title>Sopy - Delicious Food & Soup</title>
+    
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link
-        href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap"
-        rel="stylesheet"
-    >
-
-    <!-- Font Awesome -->
-    <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-    >
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
-
 <body>
 
-    <!-- Start Header -->
-
+    <!-- Header Section -->
     <header>
         <div class="container">
-
-            <a href="#" class="logo">
+            <h1 class="logo">
                 Food<span>.</span>
-            </a>
+            </h1>
 
             <nav>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Menu</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
 
-            <div class="auth">
-                <a href="#">Login</a>
-
-                <a href="#" class="register">
-                    Register
-                </a>
+            <div class="header-actions">
+                <span class="login-btn">Login</span>
+                <button class="btn btn-outline">Register</button>
             </div>
-
         </div>
     </header>
 
-    <!-- End Header -->
-
-
-    <!-- Start Landing -->
-
-    <main class="landing-page">
-
+    <!-- Landing Page Section -->
+    <section class="landing-page">
         <div class="container">
-
-            <!-- Text -->
-
-            <div class="content">
-
-                <h1>
-                    Spice Up to<br>
-                    Mood Up
+            <!-- Text Content -->
+            <div class="content-box">
+                <h1 class="main-title">
+                    Spice Up to Mood Up
                 </h1>
 
-                <h2>
+                <h3 class="sub-title">
                     Spicy Vegetables Soup
-                </h2>
+                </h3>
 
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur
-                    adipisicing elit. Nisi vitae, aliquam in
-                    aperiam? Ex.
+                <p class="description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi vitae, aliquam in aperiam? Ex.
                 </p>
 
-                <div class="actions">
-
-                    <a href="#" class="primary-btn">
+                <div class="cta-buttons">
+                    <button class="btn btn-primary">
                         Book a Table
-                    </a>
-
-                    <a href="#" class="secondary-btn">
+                    </button>
+                    <button class="btn btn-outline">
                         View Menu
-                    </a>
-
+                    </button>
                 </div>
-
             </div>
 
-
-            <!-- Image -->
-
+            <!-- Image Content -->
             <div class="image-box">
-
-                <img
-                    src="image/5df75d64-16ca-4360-b7a6-29a3db742294.jpg"
-                    alt="Spicy Vegetables Soup"
-                >
-
+                <img src="image/5df75d64-16ca-4360-b7a6-29a3db742294.jpg" alt="Spicy vegetables soup">
             </div>
-
         </div>
-
 
         <!-- Slider Controls -->
-
         <div class="slider-controls">
-
-            <button class="arrow">
+            <button class="slider-btn" aria-label="Previous Slide">
                 <i class="fa-solid fa-arrow-left"></i>
             </button>
-
-            <span>03</span>
-
-            <button class="arrow next">
+            <span class="slide-number">03</span>
+            <button class="slider-btn active" aria-label="Next Slide">
                 <i class="fa-solid fa-arrow-right"></i>
             </button>
-
         </div>
-
-    </main>
-
-    <!-- End Landing -->
+    </section>
 
 </body>
-
 </html>
